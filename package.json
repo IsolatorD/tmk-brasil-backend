@@ -1,0 +1,39 @@
+{
+  "name": "tmk-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app_tmk.js",
+  "scripts": {
+    "start": "nodemon ./app_tmk.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizplannerio/tmk-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizplannerio/tmk-backend/issues"
+  },
+  "homepage": "https://github.com/bizplannerio/tmk-backend#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.4.0",
+    "multer": "^1.4.1",
+    "node-cron": "^2.0.3",
+    "pg-promise": "^7.5.4",
+    "socket.io": "^2.2.0",
+    "useragent": "^2.3.0",
+    "winston": "^2.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
